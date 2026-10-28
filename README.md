@@ -10,8 +10,6 @@ Extension Chrome qui affiche une estimation de marge de revente pour certains iP
 - Consulte indépendamment les estimations de reprise d’Easy Cash et de Cash Express.
 - Affiche la meilleure marge estimée après déduction du prix de l’article, de la protection acheteur Vinted et de 5 € de livraison.
 
-Les marges positives sont vertes, les marges négatives rouges. Une marge anormalement élevée ou un modèle non reconnu affiche `?` plutôt qu’un montant trompeur.
-
 ### Légende des indicateurs
 
 | Indicateur | Signification |
