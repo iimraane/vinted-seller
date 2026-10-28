@@ -14,6 +14,15 @@ Extension Chrome qui affiche une estimation de marge de revente pour certains iP
 
 Les marges positives sont vertes, les marges négatives rouges. Une marge anormalement élevée ou un modèle non reconnu affiche `?` plutôt qu’un montant trompeur.
 
+### Légende des indicateurs
+
+| Indicateur | Signification |
+| --- | --- |
+| Vert | La marge estimée est positive ou nulle. |
+| Rouge | La marge estimée est négative. |
+| `?` gris | L’extension ne peut pas donner une estimation fiable : modèle inconnu, informations insuffisantes, ou marge jugée anormalement élevée. |
+| `Scam` rouge | La description contient la mention exacte `virement bancaire`. L’extension n’effectue alors aucune estimation pour cette annonce. |
+
 ## Tutoriel : installer l’extension dans Chrome
 
 ### 1. Télécharger le projet
