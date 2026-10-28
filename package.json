@@ -1,0 +1,21 @@
+{
+  "name": "vinted-phone-margin-extension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build --mode background && vite build --mode content && vite-node --script scripts/check-dist.ts",
+    "package:chrome": "npm run build && vite-node --script scripts/package-chrome.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:providers": "vite-node scripts/check-providers.ts"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.291",
+    "@types/node": "^22.13.10",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "vitest": "^3.0.9"
+  }
+}
