@@ -9,8 +9,6 @@ Extension Chrome qui affiche une estimation de marge de revente pour certains iP
 - Identifie le modèle, l’état et le stockage du téléphone à partir des informations de l’annonce Vinted.
 - Consulte indépendamment les estimations de reprise d’Easy Cash et de Cash Express.
 - Affiche la meilleure marge estimée après déduction du prix de l’article, de la protection acheteur Vinted et de 5 € de livraison.
-- Met en cache les estimations valides pendant 24 heures.
-- Signale les annonces contenant la mention exacte `virement bancaire` et ignore les appareils ou annonces non exploitables.
 
 Les marges positives sont vertes, les marges négatives rouges. Une marge anormalement élevée ou un modèle non reconnu affiche `?` plutôt qu’un montant trompeur.
 
