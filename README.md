@@ -86,7 +86,3 @@ L’archive est générée dans `release/vinted-phone-margin-extension.zip`.
 L’extension lit les informations affichées dans l’annonce afin d’établir une estimation. Elle transmet seulement les caractéristiques nécessaires de l’appareil aux parcours publics d’estimation d’Easy Cash et Cash Express. Elle ne transmet pas les données de compte Vinted, les coordonnées, les paiements ou les messages.
 
 Les détails de publication Chrome Web Store sont disponibles dans [docs/chrome-web-store-listing.fr.md](docs/chrome-web-store-listing.fr.md).
-
-## Licence
-
-Ce dépôt ne contient pas encore de licence explicite. Tous droits réservés par défaut.
